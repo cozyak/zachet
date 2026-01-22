@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #030305;
+    background: #fff;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.header {
+    height: 90px;
+    margin: 0px 100px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.header-inner {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 500px;
+}
+
+.logo img {
+    width: 113px;
+    height: 50px; 
+    object-fit: cover;
+    
+}
+
+.nav ul {
+    display: flex;
+    gap: 80px;
+    list-style: none;
+}
+
+.nav a {
+    color: #030305;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav a:hover {
+    color: #666;
+}
+
+.hero {
+    position: relative;
+    height: 794px;
+    background: url('../images/Car_back1.png') center/cover no-repeat;
+}
+
+.hero-content {
+    position: absolute;
+    top: 193px;
+    max-width: 855px;
+}
+
+.hero h1 {
+    font-size: 80px;
+    font-weight: 900;
+    margin-bottom: 40px;
+    line-height: 1.1;
+}
+
+.hero p {
+    font-size: 16px;
+    max-width: 500px;
+    margin-bottom: 56px;
+    opacity: 0.95;
+}
+
+.btn {
+    display: inline-block;
+    background: #030305;
+    color: #fff;
+    padding: 22px 50px;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    
+}
+
+.btn:hover {
+    background: #222;
+    border-radius: 4px;
+}
+
+.section-title {
+    font-size: 60px;
+    font-weight: 900;
+    margin: 120px 0 80px;
+}
+
+.cars-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin-bottom: 120px;
+}
+
+.car-card {
+    background: white;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s;
+    
+}
+
+.car-card:hover {
+    scale: 1.1;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    outline-color: black;
+}
+
+.car-card img {
+    width: 100%;
+    height: 261px;
+    object-fit: cover;
+}
+
+.car-card h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 20px 0 15px;
+}
+
+.car-specs {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.spec {
+    text-align: center;
+    font-size: 16px;
+}
+
+.icon_drive {
+    width: 34px;
+    height: 34px;
+    background: url('../images/Drive.png') center/cover no-repeat;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+    position: relative;
+}
+
+.icon_gear {
+    width: 34px;
+    height: 34px;
+    background: url('../images/Gear.png') center/cover no-repeat;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+    position: relative;
+}
+
+.icon_group {
+    width: 34px;
+    height: 34px;
+    background: url('../images/Group.png') center/cover no-repeat;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+    position: relative;
+}
+
+.contact-section {
+    margin-bottom: 100px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    transform: translateX(100px);
+}
+
+.contact-form {
+    flex: 1;
+    max-width: 400px;
+}
+
+.title-rolls{
+    text-align: center;
+}
+
+.rolls-h2 {
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: 30px;   
+}
+
+.rolls-p {
+    font-size: 16px;
+    color: #5c5c5e;
+    margin-bottom: 50px;
+}
+
+.contact-form input {
+    width: 100%;
+    height: 65px;
+    padding: 0 18px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+}
+
+.contact-form input::placeholder {
+    color: #5c5c5e;
+}
+
+.contact-image img {
+    width: 100%;
+    max-width: 969px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.footer {
+    border-top: 1px solid #e5e5e5;
+    padding: 30px 0;
+}
+
+.footer-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer p {
+    font-size: 15px;
+}
